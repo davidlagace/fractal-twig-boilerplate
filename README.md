@@ -13,7 +13,7 @@ Or open up your terminal and run the following commands:
 
 ```
 $ cd <your-desired-directory>
-$ git clone https://github.com/joshuacerbito/fractal-twig.git
+$ git clone https://github.com/davidlagace/fractal-twig-boilerplate
 ```
 
 Once the cloning is successful, install all the dependencies via npm:
@@ -32,13 +32,18 @@ $ npm install -g @frctl/fractal
 
 Before you run any of these commands, make sure you're on the root directory of your project.
 
-To compile the sass and load up Fractal with BrowserSync, run:
+To start the Webpack dev server and Fractal BrowerSync mode, run:
 ```
-$ npm run fractal
+$ npm run fractal:dev
+```
+
+For the prod version, run:
+```
+$ npm run fractal:build
 ```
 ----
 
-_Here are some other usefull commands_
+_Here are some other standalone usefull commands_
 
 To compile your project to static HTML
 ```
@@ -54,10 +59,3 @@ To load up Fractal with BrowserSync, run:
 ```
 $ fractal start --sync
 ```
-
-To compile the sass, run:
-```
-$ npm run sass
-```
-
-

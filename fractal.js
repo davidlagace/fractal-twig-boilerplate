@@ -16,7 +16,7 @@ const fractal = module.exports = require('@frctl/fractal').create();
 /*
  * Give your project a title.
  */
-fractal.set('project.title', 'Fractal + Twig + sass');
+fractal.set('project.title', 'Fractal + Twig + Webpack');
 
 /*
  * Tell Fractal where to look for components.
