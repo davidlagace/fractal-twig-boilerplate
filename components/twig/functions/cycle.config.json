@@ -1,0 +1,6 @@
+{
+    "title": "Cycle",
+    "context": {
+        "fruits": ["apple", "orange", "citrus", "nutella"]
+    }
+}

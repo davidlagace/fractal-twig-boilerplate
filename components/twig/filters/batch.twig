@@ -1,0 +1,31 @@
+<div class="filter-item">
+	<table>
+		<tr>
+			<td>
+				<strong>grouped by 3s</strong>
+			</td>
+		</tr>
+		{% for row in _batch | batch(3, "No item") %}
+	    <tr>
+	        {% for column in row %}
+	            <td>{{ column }}</td>
+	        {% endfor %}
+	    </tr>
+		{% endfor %}
+	</table>
+
+	<table>
+		<tr>
+			<td>
+				<strong>grouped by 4s</strong>
+			</td>
+		</tr>
+		{% for row in _batch | batch(4, "No item") %}
+	    <tr>
+	        {% for column in row %}
+	            <td>{{ column }}</td>
+	        {% endfor %}
+	    </tr>
+		{% endfor %}
+	</table>
+</div>

@@ -1,0 +1,6 @@
+{
+    "title": "'date' + 'date_modify' filter",
+    "context": {
+        "_date1": "now"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "title": "'format' filter",
+    "context": {
+        "_format": "pizza"
+    }
+}

@@ -1,0 +1,10 @@
+title: Primary Button
+context:
+    text: Click Me
+variants:
+  - name: Download
+    context:
+      text: Download Now
+  - name: Install
+    context:
+      text: Install Now

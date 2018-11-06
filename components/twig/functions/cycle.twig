@@ -1,0 +1,16 @@
+{% set start_year = date() | date('Y') %}
+{% set end_year = start_year + 5 %}
+
+<h4>Years</h4>
+<ul>
+{% for year in start_year..end_year %}
+    <li>{{ year }} - {{ cycle(['odd', 'even'], loop.index0) }}</li>
+{% endfor %}
+</ul>
+
+<h4>Fruits</h4>
+<ul>
+{% for i in 0..8 %}
+    <li>{{ cycle(fruits, i) }}</li>
+{% endfor %}
+</ul>

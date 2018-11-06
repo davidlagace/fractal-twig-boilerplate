@@ -1,0 +1,15 @@
+{
+    "name": "FractalTwig",
+    "version": "0.1.0",
+    "description": "'Fractal + Twig' is a collection of examples and configurations for bootstrapping a Fractal-generated Style Guide using Twig as it's templating engine.",
+    "scripts": {
+        "sass": "sass sass/style.scss:public/css/style.css",
+        "sass:watch": "sass --watch sass/style.scss:public/css/style.css",
+        "fractal": "node-sass sass/style.scss public/css/style.css -w & ./node_modules/.bin/fractal start --sync"
+    },
+    "dependencies": {
+        "@frctl/consolidate": "^1.0.1",
+        "@frctl/fractal": "^1.0.8",
+        "twig": "^0.9.5"
+    }
+}

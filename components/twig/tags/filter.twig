@@ -1,0 +1,13 @@
+<div class="tag-item">
+	<p>
+		{% filter upper %}
+		    This text becomes uppercase
+		{% endfilter %}
+	</p>
+
+	<p>
+		{% filter lower | escape %}
+		    <strong>THIS TEXT WILL BE ESCAPED AND LOWERCASE</strong>
+		{% endfilter %}
+	</p>
+</div>

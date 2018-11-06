@@ -1,0 +1,12 @@
+{
+    "title": "'first' and 'last' filter",
+    "context": {
+        "_array": [1, 2, 3, 4],
+        "_object": {
+            "a": 10,
+            "b": 20,
+            "c": 30,
+            "d": 40
+        }
+    }
+}

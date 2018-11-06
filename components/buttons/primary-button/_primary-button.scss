@@ -1,0 +1,11 @@
+.primary-button {
+  border: 0;
+  padding: 10px;
+  background: blue;
+  color: white;
+
+  &[data-theme="dark"] {
+    background: #eee;
+    color: blue;
+  }
+}

@@ -1,0 +1,8 @@
+<div class="filter-item">
+	<p>
+		Today is {{ _date | date("m/d/Y \a\t g:ia") }}
+	</p>
+	<p>
+		And tomorrow will be {{ _date | date("m/d/Y") | date_modify("+1 day") | date("m/d/Y") }}
+	</p>
+</div>
