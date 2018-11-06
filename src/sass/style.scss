@@ -1,0 +1,23 @@
+/* *****************************************************************************
+*
+*  SITE Configuration
+*
+* ***************************************************************************** */
+// NOTE : the "~" in the url is a shortcut for the "node_modules" folder use by webpack
+
+// Bootstrap functions
+@import "~bootstrap/scss/functions";
+
+// Import of Custom Fonts, to be used in variables.scss
+@import "fonts";
+@import "bootstrap/_variables";
+
+// Bootstrap Default Mixins
+@import "~bootstrap/scss/mixins";
+
+// Bootstrap components
+@import "bootstrap/_imports";
+
+// Style guide components
+//@import "../../components/**/*";
+@import "../../components/buttons/primary-button/primary-button";

@@ -1,4 +1,5 @@
-'Fractal + Twig' is a collection of examples and configurations for bootstrapping a [Fractal]-generated Style Guide using [Twig] as it's templating engine.
+# Overview
+This is a simple boilerplate for Fractal using Twig, Bootstrap 4, Webpack 4 and SASS.
 
 # Requirements
 
@@ -31,6 +32,14 @@ $ npm install -g @frctl/fractal
 
 Before you run any of these commands, make sure you're on the root directory of your project.
 
+To compile the sass and load up Fractal with BrowserSync, run:
+```
+$ npm run fractal
+```
+----
+
+_Here are some other usefull commands_
+
 To compile your project to static HTML
 ```
 $ fractal build
@@ -46,13 +55,9 @@ To load up Fractal with BrowserSync, run:
 $ fractal start --sync
 ```
 
-# To-Do
+To compile the sass, run:
+```
+$ npm run sass
+```
 
-* Add missing filters and functions
-* Include styling
-* Include basic JS behaviours
-* Config file for publishing all twig files to a different directory
 
-[Fractal]: http://fractal.build
-[Twig]: http://twig.sensiolabs.org
-[Node.js]: http://nodejs.org
